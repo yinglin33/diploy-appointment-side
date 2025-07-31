@@ -15,8 +15,8 @@ export default function SalesTable({ sales }: SalesTableProps) {
     return (
       <div className="bg-white rounded-xl border border-gray-200 p-12 text-center">
         <div className="text-gray-400 text-lg mb-2">💰</div>
-        <p className="text-gray-600 font-medium">No sales found</p>
-        <p className="text-gray-400 text-sm mt-1">Sales will appear here when available</p>
+        <p className="text-gray-600 font-medium">No appointments found</p>
+        <p className="text-gray-400 text-sm mt-1">Appointments will appear here when available</p>
       </div>
     );
   }
@@ -27,7 +27,7 @@ export default function SalesTable({ sales }: SalesTableProps) {
       <div className="px-6 py-4 border-b border-gray-100 bg-gray-50/50">
         <div className="flex items-center justify-between">
           <div>
-            <h2 className="text-lg font-semibold text-gray-900">Sales</h2>
+            <h2 className="text-lg font-semibold text-gray-900">Appointments</h2>
           </div>
         </div>
       </div>
